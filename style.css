@@ -1,0 +1,36 @@
+.ava{
+  margin-left: 42%;
+  width: 250px;
+  height: 250px;
+  border-radius: 65px;
+}
+
+.text{
+  text-align: center;
+  font-family: Benton Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 140%;
+  margin: auto;
+  border: 15px;
+}
+.texto{
+  font-family: Benton Sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  font-size: 140%;
+  border: 15px;
+}
+body {
+	background: linear-gradient(90deg, #ffa07a, #ffdead, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 11s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 50%;
+	}
+}
